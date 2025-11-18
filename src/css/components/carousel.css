@@ -31,6 +31,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   margin: 0;
   position: absolute;
   top: 50%;
+  /* Changement de la position des controles */
   left: 0;
   right: 0;
   transform: translateY(-50%);
@@ -52,6 +53,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   border: 1px solid;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.8);
+  /* Ajout d'un fond semi-transparent blanc */
   cursor: pointer;
   /* Largeur du bouton 50px - https://developer.mozilla.org/fr/docs/Web/CSS/width */
   /* Hauteur du bouton 50px - https://developer.mozilla.org/fr/docs/Web/CSS/height */
@@ -84,6 +86,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
 
 .carousel__item {
   flex: 1 0 90vw;
+  /* changement de la taille d'image */
   scroll-snap-align: center;
   /* Largeur responsive : 90% de la largeur de l'écran */
   /* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */
