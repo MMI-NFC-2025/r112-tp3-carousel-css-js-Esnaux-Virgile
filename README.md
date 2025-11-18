@@ -151,7 +151,7 @@ scrollAmount = premierItem.clientWidth;
 Doit afficher :
 
 ```js
-260;
+260, ici 378;
 ```
 
 Intégrer ces deux lignes dans le fichier [script.js](/src/js/script.js) et remplacer la constante `260` par la valeur déterminée dynamiquement.
