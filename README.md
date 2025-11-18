@@ -28,7 +28,7 @@ Les `____` sont à remplacer par les termes corrects.
 Trouvez l'élément de classe CSS `carousel__container` :
 
 ```js
-carousel = document.querySelector(".carousel__container");
+carousel = document.querySelector("______");
 ```
 
 Doit afficher dans la console :
@@ -68,7 +68,7 @@ Scroll vers la droite (scroll **moins**)
 Trouvez l'élément de classe CSS `carousel__button--prev` :
 
 ```js
-prevButton = document.querySelector(".carousel__button--prev");
+prevButton = __________________;
 ```
 
 Doit afficher dans la console :
@@ -85,7 +85,7 @@ Doit afficher dans la console :
 Trouvez l'élément de classe CSS `carousel__button--next` :
 
 ```js
-nextButton = document.querySelector(".carousel__button--next");
+nextButton = _______________________;
 ```
 
 Doit afficher dans la console :
@@ -106,20 +106,20 @@ Doit afficher dans la console :
 Dans le fichier [script.js](/src/js/script.js), compléter le code suivant :
 
 ```js
-const carousel = document.querySelector(".carousel__container");
-const prevButton = document.querySelector(".carousel__button--prev");
-const nextButton = document.querySelector(".carousel__button--next");
+const carousel = ______________________;
+const prevButton = _____________________;
+const nextButton = _____________________;
 
 // Largeur de défilement d’un item
 if (carousel) {
   // Scroll au clic sur le bouton précédent
-  prevButton.addEventListener("click", () => {
-    carousel.scrollBy({ left: -260, behavior: "smooth" });
+  prevButton.____________("_____", () => {
+    ______________________;
   });
 
   // Scroll au clic sur le bouton suivant
-  nextButton.addEventListener("click", () => {
-    carousel.scrollBy({ left: +260, behavior: "smooth" });
+  nextButton.____________("_____", () => {
+    ______________________;
   });
 }
 ```
